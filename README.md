@@ -28,8 +28,8 @@ pxg6af
 
 ## Pipeline
 
-- [Jupyter Notebook Pipeline](pipeline/project1_pipeline.ipynb)
-- [Markdown Export of Pipeline](pipeline/project1_pipeline.md)
+- [Jupyter Notebook Pipeline](pipeline/pipeline.ipynb)
+- [Markdown Export of Pipeline](pipeline/pipeline.md)
 
 ## License
 
