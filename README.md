@@ -105,7 +105,7 @@ The raw dataset comes from the UCI Credit Card Default dataset. The source data 
 
 | File | Description | Link |
 |---|---|---|
-| `scr/create_tables.py` | Loads the raw data, renames the ID field, reshapes repeated monthly variables, and saves processed tables. | [scr/create_tables.py](scr/create_tables.py) |
+| `src/create_tables.py` | Loads the raw data, renames the ID field, reshapes repeated monthly variables, and saves processed tables. | [src/create_tables.py](scr/create_tables.py) |
 | `sql/create_tables.sql` | Defines the SQL table structure used in the DuckDB workflow. | [sql/create_tables.sql](sql/create_tables.sql) |
 | `sql/load_tables.sql` | Loads processed CSV files into DuckDB. | [sql/load_tables.sql](sql/load_tables.sql) |
 | `sql/feature_queries.sql` | Builds the final modeling table from the relational tables. | [sql/feature_queries.sql](sql/feature_queries.sql) |
