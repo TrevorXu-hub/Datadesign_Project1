@@ -128,7 +128,7 @@ A key decision in this project was to split the original wide dataset into four 
 
 ### Schema ER Diagram
 
-- [ER Diagram](metadata/schema.png)
+- [ER Diagram](metadata/schema.jpg)
 
 ### Data Table
 
