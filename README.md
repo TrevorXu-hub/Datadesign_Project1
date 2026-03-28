@@ -128,7 +128,7 @@ A key decision in this project was to split the original wide dataset into four 
 
 ### Schema ER Diagram
 
-- [ER Diagram](metadata/er_diagram.png)
+- [ER Diagram](metadata/schema.png)
 
 ### Data Table
 
@@ -141,7 +141,7 @@ A key decision in this project was to split the original wide dataset into four 
 
 ### Data Dictionary
 
-A full copy is also stored in [metadata/data_dictionary.md](metadata/data_dictionary.md).
+A full copy is also stored in [metadata/data_dictionary.md](metadata/data_dic.md).
 
 #### clients
 
@@ -188,7 +188,6 @@ A full copy can also be stored in [metadata/numerical_uncertainty.md](metadata/n
 | `limit_bal` | `credit_accounts` | 167484.323 | 129747.662 | 10000 | 1000000 | Credit limit reflects both client profile and lender policy. |
 | `repayment_status` | `repayment_history` | -0.182 | 1.166 | -2 | 8 | This is a coded measure of repayment condition, so it compresses more complex behavior into one number. |
 | `bill_amount` | `monthly_financials` | 44976.950 | 66834.430 | -339603 | 1664089 | Bill amounts vary a lot across clients and months and may reflect temporary spikes. |
-| `pay_amount` | `monthly_financials` | `<ADD_MEAN>` | `<ADD_STD>` | `<ADD_MIN>` | `<ADD_MAX>` | Payment amounts can change a lot from month to month. |
 
 ---
 
