@@ -89,9 +89,9 @@ Background readings are stored in the [background_reading/](background_reading/)
 
 | Title | Brief Description | File in Folder | Source |
 |---|---|---|---|
-| Credit (FDIC) | Basic background on how consumer credit works and why repayment matters. | [<ADD_FILE_NAME>](background_reading/<ADD_FILE_NAME>) | [FDIC Credit](https://www.fdic.gov/credit) |
-| Credit Reports and Scores (CFPB) | Explains how credit reports and scores are used and why payment history matters. | [<ADD_FILE_NAME>](background_reading/<ADD_FILE_NAME>) | [CFPB Credit Reports and Scores](https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores) |
-| Default of Credit Card Clients (UCI Machine Learning Repository) | Gives the dataset description, variable information, and target definition for this project. | [<ADD_FILE_NAME>](background_reading/<ADD_FILE_NAME>) | [UCI Dataset Page](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients) |
+| The comparisons of data mining techniques for the predictive accuracy of probability of default of credit card clients | This is the main source study behind the dataset used in this project. It explains the problem setting, the variables, and the idea of predicting default probability for credit card clients. | [yeh_lien_2009_credit_card_default.pdf](background_reading/yeh_lien_2009_credit_card_default.pdf) | [PDF Source](https://bradzzz.gitbooks.io/ga-seattle-dsi/dsi/dsi_05_classification_databases/2.1-lesson/assets/datasets/DefaultCreditCardClients_yeh_2009.pdf) |
+| The Consumer Credit Card Market Report (CFPB, 2025) | This report gives broader background on the credit card market and helps explain why repayment behavior, borrowing patterns, and financial stress matter in consumer credit. | [cfpb_consumer_credit_card_market_report_2025.pdf](background_reading/cfpb_consumer_credit_card_market_report_2025.pdf) | [PDF Source](https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025.pdf) |
+| Report to Congress on Credit Scores and Creditor-Purchased Credit Scores (CFPB, 2011) | This report explains what credit scores are, how they relate to default risk, and why lenders use them in credit decisions. It helps connect this project to the larger context of credit risk assessment. | [cfpb_credit_scores_report_2011.pdf](background_reading/cfpb_credit_scores_report_2011.pdf) | [PDF Source](https://files.consumerfinance.gov/f/2011/07/Report_20110719_CreditScores.pdf) |
 
 ---
 
@@ -105,7 +105,7 @@ The raw dataset comes from the UCI Credit Card Default dataset. The source data 
 
 | File | Description | Link |
 |---|---|---|
-| `src/create_tables.py` | Loads the raw data, renames the ID field, reshapes repeated monthly variables, and saves processed tables. | [src/create_tables.py](scr/create_tables.py) |
+| `src/create_tables.py` | Loads the raw data, renames the ID field, reshapes repeated monthly variables, and saves processed tables. | [src/create_tables.py](src/create_tables.py) |
 | `sql/create_tables.sql` | Defines the SQL table structure used in the DuckDB workflow. | [sql/create_tables.sql](sql/create_tables.sql) |
 | `sql/load_tables.sql` | Loads processed CSV files into DuckDB. | [sql/load_tables.sql](sql/load_tables.sql) |
 | `sql/feature_queries.sql` | Builds the final modeling table from the relational tables. | [sql/feature_queries.sql](sql/feature_queries.sql) |
