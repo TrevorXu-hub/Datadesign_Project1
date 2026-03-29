@@ -14,7 +14,7 @@ pxg6af
 
 ## DOI
 
-`<ADD_ZENODO_DOI_HERE>`
+`[![DOI](https://zenodo.org/badge/1193967026.svg)](https://doi.org/10.5281/zenodo.19302188)`
 
 ## Press Release
 
