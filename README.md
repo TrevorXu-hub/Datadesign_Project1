@@ -22,7 +22,7 @@ pxg6af
 
 ## Data
 
-- [UVA OneDrive Data Folder](https://myuva-my.sharepoint.com/:f:/r/personal/pxg6af_virginia_edu/Documents/DataDesign_Project1?csf=1&web=1&e=IQ4uOR)
+- [UVA OneDrive Data Folder](https://myuva-my.sharepoint.com/:f:/g/personal/pxg6af_virginia_edu/IgCjfkmzPh6EQrpH3zvEOKLKAQPH5AYsuRVgRzA3qGVdbSY?e=wLkTak)
 - [Raw Data Folder](data_raw/)
 - [Processed Data Folder](data_processed/)
 
